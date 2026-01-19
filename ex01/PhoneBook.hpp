@@ -10,3 +10,22 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#ifndef PHONEBOOK_HPP
+#define  PHONEBOOK_HPP
+
+#include "Contact.hpp"
+
+class PhoneBook{
+private:
+    Contact contacts[8];
+    int contactCount;
+    int oldestIndex;
+    void displayContactSummary(int index) const;
+    std::string truncatText(std::string text) const;
+public:
+    PhoneBook();
+    void addContact();
+    void searchContacts() const;
+};
+
+#endif

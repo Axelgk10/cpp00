@@ -10,3 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "PhoneBook.hpp"
+#include <iostream>
+#include <string>
+#include <iomanip>
+#include <limits>
+#include <cstdlib>
