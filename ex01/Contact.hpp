@@ -6,7 +6,7 @@
 /*   By: axgimene <axgimene@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/19 13:35:43 by axgimene          #+#    #+#             */
-/*   Updated: 2026/01/19 17:54:55 by axgimene         ###   ########.fr       */
+/*   Updated: 2026/01/20 13:05:07 by axgimene         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #define CONTACT_HPP
 
 #include <string>
+
 class Contact {
 private:
 	std::string firstName;
