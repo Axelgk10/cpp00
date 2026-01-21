@@ -6,7 +6,7 @@
 #    By: axgimene <axgimene@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/19 12:47:13 by axgimene          #+#    #+#              #
-#    Updated: 2026/01/19 13:03:53 by axgimene         ###   ########.fr        #
+#    Updated: 2026/01/21 14:00:21 by axgimene         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -29,10 +29,12 @@ $(NAME): $(OBJ)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJ)
+	@rm -f $(OBJ)
+	@echo "Object files removed."
 
 fclean: clean
-	rm -f $(NAME)
+	@rm -f $(NAME)
+	@echo "Executable removed."
 
 re: fclean all
 
